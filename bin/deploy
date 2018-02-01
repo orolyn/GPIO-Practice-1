@@ -1,0 +1,1 @@
+rsync -azP --delete --exclude-from="$(dirname $0)/../rsync-exclude.txt" $(dirname $0)/../ pi@malediction.local:/home/pi/Project/practice-1

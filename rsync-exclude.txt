@@ -1,0 +1,5 @@
+/rsync-exclude.txt
+/RPi
+/.idea
+/.git
+/.gitignore

@@ -1,0 +1,3 @@
+while inotifywait -e modify,move,create,delete --exclude \.idea -r $(dirname $0)/../; do
+    ./$(dirname $0)/deploy
+done
